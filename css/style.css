@@ -99,11 +99,19 @@ a {
     font-size: 0.8rem;
 }
 
-.info-icon {
-    width: 45px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
+.info-icon i {
+    font-size: 40px; /* Tamanho do ícone */
+    color: #25d366; /* Cor verde do WhatsApp */
+    transition: transform 0.3s;
+}
+
+.info-icon img {
+    width: 100%;
+    animation: rotate 5s linear infinite;
+}
+
+.info-icon i:hover {
+    transform: scale(1.2); /* Efeito de zoom ao passar o mouse */
 }
 
 .info-icon img {
